@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "harryPotter";
+    src: url(./fonts/HARRYP__.TTF);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+html{
+    background: linear-gradient(to bottom, #000000, #0c0c38);
+    color: white;
+    height: 100%;
+    margin: 0;
+}
+.title{
+    /* margin-top: 16px; */
+    font-size: 64px;
+    font-family: "harryPotter";
+    text-align: center;
+     background: linear-gradient(90deg, #ffcc00, #ff9900, #cc6600);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      letter-spacing: 3px;
+      text-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+}
+.setup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 56px;
+    gap: 24px;
+}
+
+
+#roundInput {
+  padding: 10px 15px;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 200px;
+  outline: none;
+  transition: 0.3s;
+}
+
+#roundInput:hover {
+  border-color: #ffcc00;
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.5)
+}
+
+#startBtn {
+    margin-left: 10px;
+    padding: 8px 16px;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 700;
+    background-color: #ffcc00;
+    color: rgb(60, 60, 60);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#startBtn:hover {
+    background-color: #ff9900;
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.5)
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 56px;
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 700;
+    gap:32px;
+}
+.buttons{
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.buttons img{
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.2s , box-shadow 0.2;
+}
+.buttons img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+}
+.msg{
+    margin-top: 56px;
+    font-size: 32px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+}

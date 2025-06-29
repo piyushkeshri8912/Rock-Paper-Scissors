@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock-Paper-Scissor</title>
+  </head>
+  <body>
+    <div class="title">ROCK PAPER SCISSORS</div>
+    <div class="setup">
+      <input
+        type="number"
+        id="roundInput"
+        placeholder="Enter number of rounds"
+      />
+      <button id="startBtn">Start</button>
+    </div>
+    <div class="result">
+      <div class="myScore">Your Score: 0</div>
+      <div class="botScore">Computer Score: 0</div>
+    </div>
+    <div class="buttons">
+      <a href="#"><img src="./images/rock.jpg" alt="rock" /></a>
+      <a href="#"><img src="./images/paper.jpeg" alt="paper" /></a>
+      <a href="#"><img src="./images/scissors.jpeg" alt="scissors" /></a>
+    </div>
+    <div class="msg">Let's Play</div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
